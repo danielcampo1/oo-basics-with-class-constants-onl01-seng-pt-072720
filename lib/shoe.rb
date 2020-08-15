@@ -1,5 +1,4 @@
 # learn spec/02_shoe_spec.rb
-require "pry"
 
 
 class Shoe
@@ -7,7 +6,6 @@ class Shoe
   attr_reader :brand, :size
   
   BRANDS = []
-binding.pry
   def initialize(brand)
     @brand = brand
     BRANDS << brand
