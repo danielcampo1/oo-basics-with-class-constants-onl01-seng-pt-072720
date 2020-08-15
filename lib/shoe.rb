@@ -17,8 +17,5 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
  
- def size=(size)
-   @size = size
-  BRANDS << size.pop
-end 
+ BRANDS.pop
 end
