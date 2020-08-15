@@ -6,10 +6,12 @@ class Shoe
   attr_reader :brand, :size
   
   BRANDS = []
-  def initialize(brand)
+ def initialize(brand)
     @brand = brand
-    if BRANDS.include?(BRANDS << brand)
-  end
+ 
+    if BRANDS.include?(brand)
+    	BRANDS << brand
+    end
 end
   
 
